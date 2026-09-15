@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartTech & Deals Hub - Best Amazon Deals & Reviews</title>
+  <meta name="description" content="Discover handpicked tech deals, smartphones, laptops, smart home devices with instant Amazon discount links.">
+  
+  <!-- Tailwind CSS & Google Fonts -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-slate-50 text-slate-900 min-h-screen flex flex-col justify-between">
+
+  <!-- Header Navigation -->
+  <header class="navbar sticky top-0 z-50 py-3 px-4 md:px-8">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      
+      <!-- Brand Logo -->
+      <div class="flex items-center gap-3">
+        <a href="index.html" class="flex items-center gap-2 text-xl font-extrabold tracking-tight text-white">
+          <span class="logo-badge">DEALS</span>
+          <span>SmartTech<span class="text-amber-400">Hub</span></span>
+        </a>
+        <span id="activeTagBadge" class="tag-indicator text-xs hidden md:inline-flex">Tag: nick3003-21</span>
+      </div>
+
+      <!-- Search Input -->
+      <div class="w-full md:w-96 relative">
+        <input type="text" id="searchInput" placeholder="Search smartphones, headphones, deals..." 
+               class="w-full pl-10 pr-4 py-2 bg-slate-800 border border-slate-700 text-white rounded-full focus:outline-none focus:border-amber-500 text-sm placeholder-slate-400">
+        <svg class="w-4 h-4 absolute left-3.5 top-3 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+        </svg>
+      </div>
+
+      <!-- Quick Social Deal Links -->
+      <div class="flex items-center gap-3 text-xs font-semibold">
+        <a href="https://t.me/" target="_blank" class="bg-sky-500 hover:bg-sky-600 text-white px-3 py-1.5 rounded-full flex items-center gap-1 transition">
+          <span>✈️ Telegram Channel</span>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-banner py-10 px-4 md:px-8 text-center">
+    <div class="max-w-4xl mx-auto">
+      <span class="bg-amber-500/20 text-amber-300 border border-amber-500/30 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-3 inline-block">
+        🔥 Verified Amazon Deals & Honest Reviews
+      </span>
+      <h1 class="text-3xl md:text-5xl font-black mb-4 leading-tight">
+        Save Big on Top Tech & Smart Home Essentials
+      </h1>
+      <p class="text-slate-300 text-sm md:text-base mb-6 max-w-2xl mx-auto">
+        Handpicked offers updated daily. Click any product to unlock direct Amazon discount pricing with buyer protection.
+      </p>
+
+      <!-- Category Filter Pills -->
+      <div class="flex flex-wrap items-center justify-center gap-2 max-w-3xl mx-auto">
+        <button class="cat-btn active" data-category="All">All Categories</button>
+        <button class="cat-btn" data-category="Smartphones">Smartphones</button>
+        <button class="cat-btn" data-category="Audio & Headphones">Audio</button>
+        <button class="cat-btn" data-category="Smartwatches">Smartwatches</button>
+        <button class="cat-btn" data-category="Smart Home">Smart Home</button>
+        <button class="cat-btn" data-category="Laptops & Tablets">Laptops</button>
+        <button class="cat-btn" data-category="Home & Kitchen">Home</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content - Product Showcase -->
+  <main class="max-w-7xl mx-auto px-4 md:px-8 py-10 flex-1 w-full">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-xl md:text-2xl font-bold text-slate-800 flex items-center gap-2">
+        <span>⚡ Trending Amazon Offers</span>
+      </h2>
+      <span class="text-xs text-slate-500 font-medium">Tag ID active: <strong class="text-slate-700">nick3003-21</strong></span>
+    </div>
+
+    <!-- Dynamic Products Grid -->
+    <div id="productsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Injected via app.js -->
+    </div>
+  </main>
+
+  <!-- Modal for Product Review & Specifications -->
+  <div id="modalOverlay" class="modal-overlay">
+    <div class="modal-card relative">
+      <button id="closeModalBtn" class="absolute top-4 right-4 text-gray-400 hover:text-gray-700 text-2xl font-bold p-1">&times;</button>
+      <div id="modalContent">
+        <!-- Injected via openReviewModal() -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer with Legal Amazon Affiliate Disclaimer -->
+  <footer class="py-8 px-4 md:px-8 text-xs text-slate-400">
+    <div class="max-w-7xl mx-auto text-center space-y-4">
+      <p class="max-w-3xl mx-auto text-slate-400 leading-relaxed">
+        <strong>Disclosure:</strong> SmartTech & Deals Hub is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.in / Amazon.com. Product prices and availability are accurate as of the date/time indicated and are subject to change.
+      </p>
+      <div class="border-t border-slate-800 pt-4 flex flex-col sm:flex-row items-center justify-between text-slate-500">
+        <p>© 2026 SmartTech & Deals Hub. All rights reserved.</p>
+        <p>Amazon Tag: <code class="bg-slate-800 text-amber-400 px-2 py-0.5 rounded">nick3003-21</code></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
