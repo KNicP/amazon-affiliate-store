@@ -1,17 +1,17 @@
 @echo off
 echo =======================================================
 echo  Updating Amazon Affiliate Store on GitHub (user: KNicP)
-echo  Posting Frequency: Every 2 minutes (Local) / 5 mins (Cloud)
+echo  Telegram Channel: @amazonoffershub1
 echo =======================================================
 
 cd /d d:\aff
 
 git add .
-git commit -m "Updated deal posting frequency to every 2 minutes"
+git commit -m "Configured Telegram Bot token and channel @amazonoffershub1"
 git push origin main
 
 echo =======================================================
-echo  SUCCESS! Changes pushed to GitHub:
+echo  SUCCESS! Updated configuration pushed to GitHub:
 echo  https://github.com/KNicP/amazon-affiliate-store
 echo =======================================================
 pause
