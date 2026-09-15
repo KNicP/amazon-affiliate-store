@@ -1,0 +1,179 @@
+[
+  {
+    "id": "prod-1",
+    "asin": "B0CHX1W1XY",
+    "title": "Apple iPhone 15 (128 GB) - Black",
+    "category": "Smartphones",
+    "price": 69900,
+    "original_price": 79900,
+    "discount": "13% OFF",
+    "rating": 4.6,
+    "reviews_count": 4820,
+    "badge": "Top Seller",
+    "image": "https://m.media-amazon.com/images/I/71657TiFeHL._SL1500_.jpg",
+    "summary": "Dynamic Island, 48MP Main Camera with 2X Telephoto, durable color-infused glass and aluminum design.",
+    "features": [
+      "Dynamic Island bubbles up alerts and Live Activities",
+      "Innovative 48MP Main camera for ultra-high resolution photos",
+      "Next-generation portraits with focus and depth control",
+      "Superfast A16 Bionic chip powers advanced features",
+      "USB-C connectivity for universal charging ease"
+    ],
+    "pros": [
+      "Stunning 48MP primary camera",
+      "Dynamic Island feature",
+      "USB-C port finally included",
+      "Great battery life"
+    ],
+    "cons": [
+      "60Hz refresh rate display",
+      "Slow charging compared to competitors"
+    ]
+  },
+  {
+    "id": "prod-2",
+    "asin": "B0CQRW81X5",
+    "title": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+    "category": "Audio & Headphones",
+    "price": 26990,
+    "original_price": 34990,
+    "discount": "23% OFF",
+    "rating": 4.7,
+    "reviews_count": 3150,
+    "badge": "Best Noise Canceling",
+    "image": "https://m.media-amazon.com/images/I/51SKmu2G9FL._SL1200_.jpg",
+    "summary": "Industry leading noise canceling with two processors, 8 microphones, and crystal clear hands-free calling.",
+    "features": [
+      "Auto NC Optimizer automatically adjusts noise cancellation based on environment",
+      "Up to 30-hour battery life for quick multi-day listening",
+      "Ultra-comfortable lightweight design with soft fit leather",
+      "Speak-to-chat technology automatically pauses music when talking",
+      "Multipoint connection lets you pair two Bluetooth devices simultaneously"
+    ],
+    "pros": [
+      "Best-in-class Active Noise Cancellation",
+      "Incredible sound profile and EQ customizability",
+      "Lightweight ergonomic fit",
+      "Superb mic quality for calls"
+    ],
+    "cons": [
+      "Does not fold as compact as XM4",
+      "Pricey without discount"
+    ]
+  },
+  {
+    "id": "prod-3",
+    "asin": "B0CWPC6KFT",
+    "title": "Samsung Galaxy Watch6 Bluetooth (44mm, Graphite)",
+    "category": "Smartwatches",
+    "price": 18499,
+    "original_price": 33999,
+    "discount": "46% OFF",
+    "rating": 4.4,
+    "reviews_count": 1890,
+    "badge": "Huge Price Drop",
+    "image": "https://m.media-amazon.com/images/I/61ZjlBOp+rL._SL1500_.jpg",
+    "summary": "Advanced sleep coaching, body composition analysis, heart rate tracking, and sleek Sapphire Crystal display.",
+    "features": [
+      "20% larger display with 30% slimmer bezel",
+      "Comprehensive Sleep Tracking with Coaching",
+      "BioActive Sensor for Body Composition Analysis (BIA)",
+      "Durable Sapphire Crystal Glass with IP68 & 5ATM water resistance"
+    ],
+    "pros": [
+      "Vibrant display and smooth Wear OS performance",
+      "Detailed health analytics & ECG",
+      "Massive 46% discount offer"
+    ],
+    "cons": [
+      "Battery life requires daily charging",
+      "Best features tied to Samsung Galaxy phones"
+    ]
+  },
+  {
+    "id": "prod-4",
+    "asin": "B0CDLRFDFV",
+    "title": "Echo Dot (5th Gen) Smart Speaker with Alexa",
+    "category": "Smart Home",
+    "price": 4499,
+    "original_price": 5499,
+    "discount": "18% OFF",
+    "rating": 4.5,
+    "reviews_count": 8940,
+    "badge": "Amazon Choice",
+    "image": "https://m.media-amazon.com/images/I/61mb8b9aVBL._SL1000_.jpg",
+    "summary": "Deeper bass, clearer vocals, and built-in motion & temperature sensors for smart home automation.",
+    "features": [
+      "Best sounding Echo Dot yet with vibrant audio resolution",
+      "Control smart home lights, plugs, and AC with voice commands",
+      "Motion detection to auto-turn on room lights when entering",
+      "Tap to pause songs or snooze alarms easily"
+    ],
+    "pros": [
+      "Affordable entry into smart home ecosystem",
+      "Surprisingly deep bass for its compact size",
+      "Privacy controls with mic off button"
+    ],
+    "cons": [
+      "Requires continuous power socket plug-in"
+    ]
+  },
+  {
+    "id": "prod-5",
+    "asin": "B0CL5KFRM8",
+    "title": "Apple iPad Air (5th Generation) M1 Chip (64GB, Wi-Fi, Space Grey)",
+    "category": "Laptops & Tablets",
+    "price": 54900,
+    "original_price": 59900,
+    "discount": "8% OFF",
+    "rating": 4.8,
+    "reviews_count": 2300,
+    "badge": "Top Rated",
+    "image": "https://m.media-amazon.com/images/I/61XZQXFQeVL._SL1500_.jpg",
+    "summary": "10.9-inch Liquid Retina display, Apple M1 processor, 12MP Ultra Wide front camera with Center Stage.",
+    "features": [
+      "M1 chip brings breakthrough performance and all-day battery life",
+      "10.9-inch Liquid Retina display with True Tone and P3 wide color",
+      "12MP Ultra Wide front camera with Center Stage for video calls",
+      "Touch ID built into the top button for secure authentication",
+      "Supports Apple Pencil (2nd gen) and Magic Keyboard"
+    ],
+    "pros": [
+      "M1 desktop-class performance",
+      "Gorgeously crisp screen",
+      "Center Stage keeps you in frame during video calls"
+    ],
+    "cons": [
+      "Base model is 64GB",
+      "Accessories sold separately"
+    ]
+  },
+  {
+    "id": "prod-6",
+    "asin": "B0C77GSL15",
+    "title": "Mi Air Fryer 3.5L Smart App Controlled Cooker",
+    "category": "Home & Kitchen",
+    "price": 5999,
+    "original_price": 14999,
+    "discount": "60% OFF",
+    "rating": 4.5,
+    "reviews_count": 1420,
+    "badge": "Mega Discount",
+    "image": "https://m.media-amazon.com/images/I/51r26pD39SL._SL1200_.jpg",
+    "summary": "360 degree hot air circulation for 85% less oil, OLED touch screen, scheduling up to 24 hours.",
+    "features": [
+      "Healthy cooking with 85% less oil intake",
+      "Smart Xiaomi Home App integration with 100+ cloud recipes",
+      "Dual-speed fan speed motor for versatile baking and frying",
+      "OLED customizable touch screen controls"
+    ],
+    "pros": [
+      "Unbeatable 60% discount price",
+      "App notification when food is done",
+      "Super easy non-stick basket cleanup"
+    ],
+    "cons": [
+      "3.5L capacity ideal for 2-4 people maximum"
+    ]
+  }
+]
