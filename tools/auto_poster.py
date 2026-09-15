@@ -48,7 +48,7 @@ def send_telegram_message(bot_token, chat_id, message_text):
         print(f"❌ Failed to post to Telegram: {e}")
         return False
 
-def run_auto_publisher(interval_minutes=60, loop_forever=False):
+def run_auto_publisher(interval_minutes=2, loop_forever=False):
     config = load_config()
     products = load_products()
     

@@ -2,8 +2,8 @@ name: 🚀 100% Automated Amazon Affiliate Publisher
 
 on:
   schedule:
-    # Runs automatically every 6 hours (4 times a day)
-    - cron: '0 */6 * * *'
+    # Runs automatically every 5 minutes (Fastest GitHub Actions Cloud Schedule)
+    - cron: '*/5 * * * *'
   workflow_dispatch: # Allows manual trigger anytime from GitHub UI
 
 jobs:
