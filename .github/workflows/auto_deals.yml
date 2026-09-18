@@ -5,6 +5,8 @@ on:
     # Runs automatically every 5 minutes (Fastest GitHub Actions Cloud Schedule)
     - cron: '*/5 * * * *'
   workflow_dispatch: # Allows manual trigger anytime from GitHub UI
+  repository_dispatch:
+    types: [publish_deal]
 
 jobs:
   auto-publish:
