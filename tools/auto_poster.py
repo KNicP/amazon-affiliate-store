@@ -4,7 +4,6 @@
 - ZERO hardcoded products or fallback pools.
 - Live real-time web scraping directly from Amazon India Best Sellers & Deals.
 - Pre-verifies HTTP 200 OK status before posting to prevent 404 links.
-- Secret Tag ID: nick3003-21
 """
 
 import sys
@@ -25,7 +24,7 @@ if sys.platform == "win32":
     except Exception:
         pass
 
-TAG_ID = os.environ.get("TAG_ID", "nick3003-21")
+
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8925867534:AAHJYAEUAqquXsqEntdoEdBcqd_moBIvR_4")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "@amazonoffershub1")
 
@@ -168,7 +167,7 @@ def format_telegram_post(product):
     msg += f"💰 <b>Live Deal Price: {price_str}</b>{mrp_str}{discount}\n\n"
     msg += f"📌 <i>100% Genuine Verified Amazon India Item</i>\n\n"
     msg += f"👉 <b>Buy Directly on Amazon:</b>\n{url}\n\n"
-    msg += f"⚡ <i>Limited Time Deal. Tag: {TAG_ID}</i>"
+   
     return msg
 
 def send_telegram(text):
