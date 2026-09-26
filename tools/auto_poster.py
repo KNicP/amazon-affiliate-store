@@ -24,7 +24,7 @@ if sys.platform == "win32":
     except Exception:
         pass
 
-TAG_ID = os.environ.get("TAG_ID", "nick300305-21")
+TAG_ID = os.environ.get("TAG_ID", "nick300309-21")
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8925867534:AAHJYAEUAqquXsqEntdoEdBcqd_moBIvR_4")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "@amazonoffershub1")
 
